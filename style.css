@@ -1,0 +1,486 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-div {
+    background-image: url("./img/Rectangle\ 3.png");
+    height: 723px;
+    padding-bottom: 69px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.navbar-div .header-nav {
+    width: 100%;
+    background: #0000003b !important;
+    height: 120px;
+    padding-top: 36px;
+    padding-bottom: 23px;
+}
+
+.test {
+    background: radial-gradient(235.74% 587.05% at 50% -24.11%, #15594D 27.43%, rgba(14, 58, 51, 0.656566) 52.96%, rgba(0, 0, 0, 0) 100%);
+    width: 100%;
+    z-index: 9999;
+}
+
+.navColorChange {
+    background: black;
+}
+
+.img-div img {
+    width: 100%;
+}
+
+.navbar-div .navbar-nav {
+    display: flex;
+    justify-content: center !important;
+    gap: 80px;
+}
+
+.navbar-nav a {
+    color: #ffffff !important;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.navbar-logo {
+    margin-left: 100px;
+    margin-right: 180px;
+    margin-top: 35px;
+}
+
+.navbar-logo p {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    letter-spacing: 5px;
+    margin-top: 10px;
+}
+
+.d-flex {
+    margin-right: 80px !important;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.d-flex .txt-ru {
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration-line: underline;
+}
+
+.d-flex .txt-uz {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-comm .text {
+    top: 40%;
+    color: #ffffff;
+    width: 560px;
+}
+
+.header-comm h1 {
+    font-size: 80px;
+    line-height: 110px;
+}
+
+.request {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    width: 480px;
+    height: 520px;
+    padding: 35px;
+}
+
+.request h2 {
+    font-size: 32px;
+    color: #15594D;
+    margin-bottom: 25px;
+}
+
+.request input {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    width: 400px;
+    height: 50px;
+    padding-left: 15px;
+    margin-bottom: 25px;
+}
+
+.request textarea {
+    background: rgba(255, 255, 255, 0.5);
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    width: 400px;
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.request button {
+    background: #15594D;
+    backdrop-filter: blur(10px);
+    border-radius: 6px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid #15594D;
+    color: #FFFFFF;
+}
+
+.header-about-us {
+    margin-top: 100px;
+}
+
+.header-about-us img {
+    width: 100px;
+    height: 60px;
+}
+
+.logo-center {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+}
+
+.header-about-us h1 {
+    margin-top: 15px;
+    font-size: 64px;
+    text-align: center;
+}
+
+.header-about-us .cards {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.cards .cards-bg {
+    background: #F8F6F4;
+    width: 280px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards-bg .cards-icon-bg {
+    background: #15594D;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.cards-bg h5 {
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.cards-bg p {
+    text-align: center;
+    width: 230px;
+    font-size: 14px;
+    color: #564E4E;
+}
+
+.cards-icon-bg {
+    display: flex;
+    justify-content: center;
+}
+
+.cards-icon-bg .icon-star-chek {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.cards-icon-bg .icon-platform {
+    width: 35px;
+    height: 37px;
+    margin-top: 10px;
+}
+
+.cards-icon-bg .icon-calendar-check {
+    width: 34px;
+    height: 38px;
+    margin-top: 10px;
+}
+
+.cards-icon-bg .icon-star {
+    width: 34px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.add-about-us {
+    margin-top: 100px;
+}
+
+.add-about-us h2 {
+    width: 407px;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.add-about-us h3 {
+    font-size: 64px;
+    color: #9C5642;
+    line-height: 125px;
+}
+
+.add-about-us p {
+    font-size: 18px;
+    line-height: 24px;
+    width: 150px;
+    margin-top: -30px;
+}
+
+.add-text-about {
+    margin-right: 70px;
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+.project-image {
+    width: 296px;
+    height: 396px;
+}
+
+.projects-img {
+    position: relative;
+    transition: all 2s;
+}
+
+.projects h1 {
+    font-size: 64px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.city-place {
+    display: flex;
+    justify-content: space-between;
+}
+
+.background-info-projects {
+    position: absolute;
+    bottom: 0;
+    padding: 16px 16px 24px 21px;
+    width: 294px;
+    background-color: #15594D;
+    border-radius: 10px;
+    display: none;
+    transition: all .5s;
+}
+
+.projects-img .project-image {
+    transition: all .5s;
+}
+
+.projects-img:hover .project-image {
+    transform: scale(1.2);
+}
+
+.projects-img:hover .background-info-projects {
+    display: block;
+    transition: all .5s;
+}
+
+.background-info-projects p {
+    color: #FFFFFF;
+}
+
+.background-info-projects h4 {
+    color: #FFFFFF;
+}
+
+.we-command {
+    margin-top: 100px;
+}
+
+.we-command h2 {
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.content-command {
+    position: relative;
+    width: 231px;
+    height: 358px;
+    margin-bottom: 100px;
+}
+
+.command-gradient {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.12%, #000000 100%);
+    border-radius: 8px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.command-gradient h3 {
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.command-container {
+    display: flex;
+    gap: 31px;
+}
+
+.content-contact h2 {
+    margin-bottom: 80px;
+    margin-top: 10px;
+    font-size: 64px;
+    text-align: center;
+}
+
+.content-contact .txt {
+    font-size: 36px;
+    line-height: 66px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.content-contact-info {
+    margin-bottom: 80px;
+}
+
+.phone {
+    margin-top: 120px;
+}
+
+.content-contact-info h3 {
+    color: #15594D;
+    font-size: 27px;
+    opacity: 0.5;
+    line-height: 32px;
+}
+
+.content-contact-info p {
+    font-size: 32px;
+    width: 420px;
+    line-height: 39px;
+}
+
+.contact-map {
+    position: relative;
+    width: 100%;
+    margin-left: 50px;
+    pointer-events: none;
+    overflow: visible;
+    cursor: default;
+}
+
+.contact-interact-map {
+    position: absolute;
+    bottom: 12px;
+    left: 35px;
+    z-index: -5;
+}
+
+.content-contact {
+    margin-bottom: 100px;
+}
+
+.end-site-info {
+    height: 400px;
+    background-color: #FBFBF9;
+}
+
+.end-site-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.about-1 h6 {
+    font-weight: 900;
+}
+
+.about-1 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    line-height: 45px;
+}
+
+.logo-end {
+    margin-top: 70px;
+}
+
+.icon-brand {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-brand i {
+    color: #00000080;
+}
+
+@media (max-width: 1000px) {
+    .navbar-div {
+        height: 400px;
+    }
+    .header-comm h1 {
+        font-size: 34px;
+        text-align: center;
+        width: 330px;
+        line-height: 60px;
+    }
+    .request {
+        display: none;
+    }
+    .logo-center img {
+        width: 40px;
+        height: 20px;
+    }
+    .header-about-us h1 {
+        font-size: 24px;
+        margin-top: -20px;
+    }
+    .add-about-us img {
+        width: 374px;
+        height: 275px;
+    }
+    .we-command {
+        display: none;
+    }
+    .cards-center {
+        display: flex;
+        justify-content: center;
+    }
+}
